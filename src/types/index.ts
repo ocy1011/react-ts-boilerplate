@@ -1,12 +1,9 @@
 import { Dispatch } from "react";
 
-export interface IState {
-  value: number;
-}
+export interface IState {}
 
 export interface IAction {
   type: string;
-  value?: number;
 }
 
 export interface IContext {
